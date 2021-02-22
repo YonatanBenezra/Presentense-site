@@ -39,7 +39,7 @@ function Drawer({ open, toggleDrawer }) {
   return (
     <Transition in component={Fade} timeout={550}>
       <nav aria-label="navigation">
-        {/* <Hidden smUp> */}
+        <Hidden smUp>
           <SwipeableDrawer
             open={open}
             onClose={toggleDrawer}
@@ -51,15 +51,15 @@ function Drawer({ open, toggleDrawer }) {
             <Spacer />
             <Links toggleDrawer={toggleDrawer} />
           </SwipeableDrawer>
-        {/* </Hidden> */}
-        {/* <Hidden xsDown> */}
+        </Hidden>
+        <Hidden xsDown>
           <MuiDrawer variant="persistent" open={open}>
             {drawerContent}
           </MuiDrawer>
-        {/* </Hidden> */}
-        {/* <Hidden mdDown> */}
-          <MuiDrawer variant="permanent">{drawerContent}</MuiDrawer>
-        {/* </Hidden> */}
+        </Hidden>
+        <Hidden mdDown>
+          <MuiDrawer variant="persistent">{drawerContent}</MuiDrawer>
+        </Hidden>
       </nav>
     </Transition>
   );
