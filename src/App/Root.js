@@ -15,12 +15,12 @@ const Root = styled(Box)`
     ${({ open }) =>
       open &&
       css`
-        width: calc(100% - ${DRAWER_WIDTH}px);
+        width: calc(101% - ${DRAWER_WIDTH}px);
       `}
   }
 
   ${[defaultTheme.breakpoints.up('lg')]} {
-    width: calc(100% - ${DRAWER_WIDTH}px);
+    width: calc(101% - ${DRAWER_WIDTH}px);
   }
 `;
 
