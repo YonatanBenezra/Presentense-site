@@ -1,0 +1,116 @@
+.us-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.us-container:hover .Linkedin{
+    transition: 0.3s;
+    border-bottom: 2px solid rgb(27, 27, 119);
+    border-right: 2px solid black;
+    }
+.me {
+    margin: 1rem;
+    flex: 1 0 10%; /* explanation below */
+}
+.Linkedin {
+    /* border-radius: 50%; */
+    background-size: contain;
+    display: block;
+    background-position: center;
+    background-clip: content-box;
+    background-image: url('./Images/Linkedin.png');
+    width: 1rem;
+    height: 1rem;
+    margin-left: 5px;
+}
+.text-center {
+    max-width: 10rem;
+}
+.position {
+    display: flex;
+}
+.studentImage1 {
+    margin: 5px;
+    height: 100px;
+    background-position: center;
+    background-clip: content-box;
+    background-image: url('./Images/studentImage1.png');
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+.studentImage2 {
+    background-position: center;
+    background-clip: content-box;
+    background-image: url('./Images/studentImage2.png');
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}.studentImage3 {
+    background-position: center;
+    background-clip: content-box;
+    background-image: url('./Images/studentImage3.png');
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}.studentImage4 {
+    background-position: center;
+    background-clip: content-box;
+    background-image: url('./Images/studentImage4.png');
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}.studentImage5 {
+    background-position: center;
+    background-clip: content-box;
+    background-image: url('./Images/studentImage5.png');
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}.studentImage6 {
+    background-position: center;
+    background-clip: content-box;
+    background-image: url('./Images/studentImage6.png');
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+
+}.mentorImage1 {
+    flex: 1 0 21%; /* explanation below */
+    margin: 5px;
+    height: 100px;
+    background-position: center;
+    background-clip: content-box;
+    background-image: url('./Images/mentorImage1.png');
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}.mentorImage2 {
+    background-position: center;
+    background-clip: content-box;
+    background-image: url('./Images/mentorImage2.png');
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}.mentorImage3 {
+    background-position: center;
+    background-clip: content-box;
+    background-image: url('./Images/mentorImage3.png');
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}.mentorImage4 {
+    background-position: center;
+    background-clip: content-box;
+    background-image: url('./Images/mentorImage4.png');
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}.mentorImage5 {
+    background-position: center;
+    background-clip: content-box;
+    background-image: url('./Images/mentorImage5.png');
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}

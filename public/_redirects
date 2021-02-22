@@ -1,0 +1,5 @@
+/home                /#/home
+/links                  /links
+/projects               /#/projects
+/lessons/*                 /#/lessons/:splat
+/us                /#/us

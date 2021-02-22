@@ -1,0 +1,8 @@
+::selection {
+  background: #04fd3a;
+  color: white;
+}
+pre {
+  box-shadow: 1px 1px 5px 5px red;
+  padding: 3px;
+}
