@@ -57,9 +57,9 @@ function Drawer({ open, toggleDrawer }) {
             {drawerContent}
           </MuiDrawer>
         </Hidden>
-        <Hidden mdDown>
-          <MuiDrawer variant="permanent">{drawerContent}</MuiDrawer>
-        </Hidden>
+        {/* <Hidden mdDown> */}
+          {/* <MuiDrawer variant="temporary">{drawerContent}</MuiDrawer> */}
+        {/* </Hidden> */}
       </nav>
     </Transition>
   );
