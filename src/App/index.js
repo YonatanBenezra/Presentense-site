@@ -28,6 +28,11 @@ import Header from 'components/Header';
 import Drawer from 'components/Drawer';
 import Root from 'App/Root';
 import './index.css';
+import ReactGA from 'react-ga';
+import RouteChangeTracker from 'components/Analytics'
+
+const TRACKING_ID = "UA-190432287-1";
+ReactGA.initialize(TRACKING_ID);
 
 export const Home = React.lazy(() => import('routes/Home'));
 export const Links = React.lazy(() => import('routes/Links'));
