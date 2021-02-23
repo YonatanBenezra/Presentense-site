@@ -8,6 +8,7 @@
     border-bottom: 2px solid rgb(27, 27, 119);
     border-right: 2px solid black;
     }
+
 .me {
     margin: 1rem;
     flex: 1 0 10%; /* explanation below */
@@ -32,6 +33,7 @@
 .studentImage1 {
     margin: 5px;
     height: 100px;
+    background-size: contain;
     background-position: center;
     background-clip: content-box;
     background-image: url('./Images/studentImage1.png');
@@ -40,6 +42,7 @@
     border-radius: 50%;
 }
 .studentImage2 {
+    background-size: contain;
     background-position: center;
     background-clip: content-box;
     background-image: url('./Images/studentImage2.png');
@@ -47,6 +50,7 @@
     height: 10rem;
     border-radius: 50%;
 }.studentImage3 {
+    background-size: contain;
     background-position: center;
     background-clip: content-box;
     background-image: url('./Images/studentImage3.png');
@@ -54,6 +58,7 @@
     height: 10rem;
     border-radius: 50%;
 }.studentImage4 {
+    background-size: contain;
     background-position: center;
     background-clip: content-box;
     background-image: url('./Images/studentImage4.png');
@@ -61,6 +66,7 @@
     height: 10rem;
     border-radius: 50%;
 }.studentImage5 {
+    background-size: contain;
     background-position: center;
     background-clip: content-box;
     background-image: url('./Images/studentImage5.png');
@@ -68,6 +74,7 @@
     height: 10rem;
     border-radius: 50%;
 }.studentImage6 {
+    background-size: contain;
     background-position: center;
     background-clip: content-box;
     background-image: url('./Images/studentImage6.png');
@@ -79,6 +86,7 @@
     flex: 1 0 21%; /* explanation below */
     margin: 5px;
     height: 100px;
+    background-size: contain;
     background-position: center;
     background-clip: content-box;
     background-image: url('./Images/mentorImage1.png');
@@ -86,6 +94,7 @@
     height: 10rem;
     border-radius: 50%;
 }.mentorImage2 {
+    background-size: contain;
     background-position: center;
     background-clip: content-box;
     background-image: url('./Images/mentorImage2.png');
@@ -93,6 +102,7 @@
     height: 10rem;
     border-radius: 50%;
 }.mentorImage3 {
+    background-size: contain;
     background-position: center;
     background-clip: content-box;
     background-image: url('./Images/mentorImage3.png');
@@ -100,6 +110,7 @@
     height: 10rem;
     border-radius: 50%;
 }.mentorImage4 {
+    background-size: contain;
     background-position: center;
     background-clip: content-box;
     background-image: url('./Images/mentorImage4.png');
@@ -107,6 +118,7 @@
     height: 10rem;
     border-radius: 50%;
 }.mentorImage5 {
+    background-size: contain;
     background-position: center;
     background-clip: content-box;
     background-image: url('./Images/mentorImage5.png');
