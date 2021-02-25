@@ -8,10 +8,6 @@ const PostContent = styled(Container)`
     margin-bottom: 1rem;
   }
 
-  h1 {
-    display: none;
-  }
-
   img {
     margin: -0.5em;
     max-width: 100%;
