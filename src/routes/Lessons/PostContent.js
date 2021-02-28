@@ -12,6 +12,11 @@ const PostContent = styled(Container)`
     margin: -0.5em;
     max-width: 100%;
   }
+
+  pre {
+    box-shadow: 1px 1px 2px 3px #f8aa1c;
+    padding: 13px;
+  }
 `;
 
 export default PostContent;

@@ -3,38 +3,68 @@ import React from 'react'
 export default 
 [
   {
-    name: "Dmitri Alperovitch",
-    image: "mentorImage1",
-    position: "mentor",
+    name: "Adam Ben-David",
+    image: "aben-david",
+    position: "Mentor",
+    href: "https://www.linkedin.com/in/adambendavid/",
     summary:
     "A possible summary"
   },
   {
-    name: "Geoff Anders",
-    image: "mentorImage2",
-    position: "mentor",
+    name: "Adam Cohen",
+    image: "fillup",
+    position: "Mentor",
+    href: "",
     summary:
     "A possible summary"
   },
   {
-    name: "Cam Keogh-Ly",
-    image: "mentorImage3",
-    position: "mentor",
+    name: "David Bador",
+    image: "dbador",
+    position: "Mentor",
+    href: "https://www.linkedin.com/in/davidbador/",
     summary:
     "A possible summary"
   },
   {
-    name: "Nick Thompson",
-    image: "mentorImage4",
-    position: "mentor",
+    name: "Gabriel Gordon ",
+    image: "ggordon",
+    position: "Mentor",
+    href: "https://www.linkedin.com/in/gabegor94/",
     summary:
     "A possible summary"
   },
   {
-    name: "Hayk Sarkissian",
-    image: "mentorImage5",
-    position: "mentor",
+    name: "Josh Sorokin",
+    image: "jsorokin",
+    position: "Mentor",
+    href: "https://www.linkedin.com/in/joshsorokin/",
     summary:
     "A possible summary"
   },
+  {
+    name: "Maayan",
+    image: "mtzoubari",
+    position: "Mentor",
+    href: "https://www.linkedin.com/in/maayantzoubari/",
+    summary:
+    "A possible summary"
+  },
+  {
+    name: "Ori Goren",
+    image: "fillup",
+    position: "Mentor",
+    href: "",
+    summary:
+    "A possible summary"
+  },
+  {
+    name: "Orr Weil",
+    image: "oweil",
+    position: "Mentor",
+    href: "https://www.linkedin.com/in/orr-weil/",
+    summary:
+    "A possible summary"
+  },
+
 ]
