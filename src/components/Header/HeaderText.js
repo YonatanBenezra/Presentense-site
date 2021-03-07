@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Keyboard, { Cursor } from 'react-mk';
 
-const typeNames = ({ type }) => type(1000, 'Presentense');
-const typeTitles = ({ type }) => type(3500, ' Khouloud',' Ismail', ' Rivka', ' Shana', ' Leah',' Yonatan');
+const typeNames = ({ type }) => type(1000, 'ARDC', 'Tel Aviv Global', 'Presentense');
+const typeTitles = ({ type }) => type(3500, ' Goanar',' Mudathir', ' Efrem', ' Elhadi', ' Samuel',' Mubarak', ' Sidiki', ' Ishag', ' Daniel', ' Wuoh', ' Fisseha', ' Semere', ' Merghani', ' Good Luck!');
 
 export default function HeaderText() {
   const [blink, setBlink] = useState(true);
