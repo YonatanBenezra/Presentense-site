@@ -14,6 +14,7 @@ const PostContent = styled(Container)`
   }
 
   pre {
+    white-space: pre-wrap;
     box-shadow: 1px 1px 2px 3px #f8aa1c;
     padding: 13px;
   }

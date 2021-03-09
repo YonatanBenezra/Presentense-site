@@ -43,7 +43,7 @@ export default
     "A possible summary"
   },
   {
-    name: "Maayan",
+    name: "Maayan Tzoubari",
     image: "mtzoubari",
     position: "Mentor",
     href: "https://www.linkedin.com/in/maayantzoubari/",
@@ -66,5 +66,36 @@ export default
     summary:
     "A possible summary"
   },
-
+  {
+    name: "Penina Kraus",
+    image: "pkraus",
+    position: "Mentor",
+    href: "https://www.linkedin.com/in/penina-kraus/",
+    summary:
+    "A possible summary"
+  },
+  {
+    name: "Sapir Begimov",
+    image: "fillup",
+    position: "Mentor",
+    href: "https://www.linkedin.com/in/orr-weil/",
+    summary:
+    "A possible summary"
+  },
+  {
+    name: "Shahar Kedar",
+    image: "fillup",
+    position: "Mentor",
+    href: "https://www.linkedin.com/in/shaharke/",
+    summary:
+    "A possible summary"
+  },
+  {
+    name: "Tesfalem",
+    image: "fillup",
+    position: "Mentor",
+    href: "https://www.linkedin.com/in/orr-weil/",
+    summary:
+    "A possible summary"
+  },
 ]

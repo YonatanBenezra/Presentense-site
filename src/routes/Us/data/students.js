@@ -51,6 +51,14 @@ export default
       "A possible summary"
     },
     {
+      name: "Merghani Ali",
+      position: "Full stack developer to-be",
+      image: "fillup",
+      href: "https://www.linkedin.com/in/yonatan-benezra-554483174/",
+      summary:
+      "A possible summary"
+    },
+    {
       name: "Mubarak Abaker",
       position: "Full stack developer to-be",
       image: "fillup",
@@ -68,6 +76,14 @@ export default
     },
     {
       name: "Samuel Mebrahtom",
+      position: "Full stack developer to-be",
+      image: "fillup",
+      href: "https://www.linkedin.com/in/yonatan-benezra-554483174/",
+      summary:
+      "A possible summary"
+    },
+    {
+      name: "Semere Bereket",
       position: "Full stack developer to-be",
       image: "fillup",
       href: "https://www.linkedin.com/in/yonatan-benezra-554483174/",

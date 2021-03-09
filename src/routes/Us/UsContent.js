@@ -10,6 +10,7 @@ const UsContent = styled(Container)`
 .me {
   margin: 1rem;
   flex: 1 0 10%;
+  text-align: -webkit-center;
 }
 .Linkedin {
   background-size: contain;
@@ -25,7 +26,7 @@ const UsContent = styled(Container)`
   max-width: 10rem;
 }
 .position {
-  display: flex;
+  display: inline-flex;
 }
 .img {
   margin: 5px;
@@ -34,7 +35,6 @@ const UsContent = styled(Container)`
   height: 10rem;
   border-radius: 50%;
 }
-
 `;
 
 export default UsContent;
