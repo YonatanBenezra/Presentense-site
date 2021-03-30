@@ -31,7 +31,7 @@ const UsPage = () => {
                  <a href={x.href} target="_blank" rel="noreferrer" className="Linkedin"></a>
                 </h4>
               </div>
-              <p className="text-center">{x.summary}</p>
+              {/* <p className="text-center">{x.summary}</p> */}
             </div>
           ))}
         </div>
@@ -55,7 +55,7 @@ const UsPage = () => {
                 </h4>
               </div>
               </h3>
-              <p>{y.summary}</p>
+              {/* <p>{y.summary}</p> */}
             </div>
           ))}
         </div>
