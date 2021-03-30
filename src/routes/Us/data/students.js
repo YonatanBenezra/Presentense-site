@@ -98,13 +98,5 @@ export default
       summary:
       "A possible summary"
     },
-    {
-      name: "Wuoh Garkuoth",
-      position: "Full stack developer to-be",
-      image: "fillup",
-      href: "https://www.linkedin.com/in/yonatan-benezra-554483174/",
-      summary:
-      "A possible summary"
-    },
     
   ]
