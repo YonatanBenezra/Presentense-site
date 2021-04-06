@@ -372,6 +372,306 @@ export default function SimpleAccordion() {
       </Accordion>
 
 
+      {/* Exercises */}
+      <h1>Exercises</h1> 
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography className={classes.heading}>HTML</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            <Accordion>
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel1a-content"
+                id="panel1a-header"
+              >
+                <Typography className={classes.heading}>Basic</Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <Typography>
+                  <A href='https://www.w3schools.com/html/exercise.asp?filename=exercise_html_attributes1'
+                    target="_blank" rel="noopener noreferrer">
+                    W3 HTML exercises
+                  </A>
+                  <br />
+                  <A href='https://www.testdome.com/tests/html-css-online-test/13'
+                    target="_blank" rel="noopener noreferrer">
+                    Test dome exercises
+                  </A>
+                  <br />
+                  <A href='http://codewithme.us/miami/exercises.shtml'
+                    target="_blank" rel="noopener noreferrer">
+                    Code with me exercises(Presentations don't work)
+                  </A>
+                </Typography>
+              </AccordionDetails>
+            </Accordion>
+            <Accordion>
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel1a-content"
+                id="panel1a-header"
+              >
+                <Typography className={classes.heading}>Intermediate</Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <Typography>
+                <A href='http://howtocodeinhtml.com/chapter4.html'
+                    target="_blank" rel="noopener noreferrer">
+                    How-to-code-in-html blogpost exercise
+                  </A>
+                  <br />
+                  <A href='https://www.sitepoint.com/10-typical-html-interview-exercises/'
+                    target="_blank" rel="noopener noreferrer">
+                    Sitepoint-10 typical html interview exercises
+                  </A>
+                  <br />
+                  <A href='http://www.naturalprogramming.com/for_students/web/html_css_javascript_exercises.pdf'
+                    target="_blank" rel="noopener noreferrer">
+                    Naturalprogramming (PDF)
+                  </A>
+                  <br />
+                  <A href='https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5'
+                    target="_blank" rel="noopener noreferrer">
+                    Free code camp
+                  </A>
+                  <br />
+                  <A href='https://codepen.io/jorgecardoso/post/0-basics-html-css-javascript'
+                    target="_blank" rel="noopener noreferrer">
+                    Codepen html,css,JS exercises
+                  </A>
+                  <br />
+                  <A href='https://en.wikiversity.org/wiki/Web_Design/CSS_challenges'
+                    target="_blank" rel="noopener noreferrer">
+                    Wikiversity
+                  </A>
+                  <br />
+                </Typography>
+              </AccordionDetails>
+            </Accordion>
+            <Accordion>
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel1a-content"
+                id="panel1a-header"
+              >
+                <Typography className={classes.heading}>Advanced</Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <Typography>
+                  <A href='https://draftin.com/documents/499936?token=fgK6zU_Ojo65goYklgWfn2_V9v2lKSJD64_8ta2tSzjqnBp16_kEUfsFP8OBWGZCsZUtzCMbo3M5HGWeIMO7lO0'
+                    target="_blank" rel="noopener noreferrer">
+                    Draftin advanced css exercises
+                  </A>
+                  <br />
+                  <A href='https://www.sitepoint.com/challenge-1-recreate-gif-css/'
+                    target="_blank" rel="noopener noreferrer">
+                    Create a gif in html and CSS
+                  </A>
+                  <br />
+                  <A href='https://codeinthedarkspokane.com/'
+                    target="_blank" rel="noopener noreferrer">
+                    Code in the dark competition
+                  </A>
+                  <br />
+                  <A href='https://grid.malven.co/'
+                    target="_blank" rel="noopener noreferrer">
+                    CSS Grid
+                  </A>
+                </Typography>
+              </AccordionDetails>
+            </Accordion>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography className={classes.heading}>CSS</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            <AccordionDetails>
+              <Typography>
+                <A href='http://flexboxfroggy.com/'
+                  target="_blank" rel="noopener noreferrer">
+                  Flex box froggy
+                  </A>
+                  <br />
+                  <A href='https://100dayscss.com/'
+                  target="_blank" rel="noopener noreferrer">
+                  100daysCss
+                  </A>
+                  <br />
+                  <A href='https://web.fe.up.pt/~arestivo/page/exercises/css/'
+                  target="_blank" rel="noopener noreferrer">
+                  Web Fe Up - css exercise
+                  </A>
+                  <br />
+                  <A href='https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5'
+                  target="_blank" rel="noopener noreferrer">
+                  Fee code camp 
+                  </A>
+                  <A href='https://codepen.io/jorgecardoso/post/0-basics-html-css-javascript'
+                  target="_blank" rel="noopener noreferrer">
+                  Codepen html, css, JS exercises
+                  </A>
+                  <br />
+                  <A href='http://www.flexboxdefense.com/'
+                  target="_blank" rel="noopener noreferrer">
+                  Flex box defense 
+                  </A>
+                  <br />
+                  <A href='https://www.sitepoint.com/challenge-1-recreate-gif-css/'
+                  target="_blank" rel="noopener noreferrer">
+                  Create a gif challenge
+                  </A>
+              </Typography>
+            </AccordionDetails>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography className={classes.heading}>Javascript</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+                <Typography>
+                  <A href='https://www.w3schools.com/js/js_exercises.asp'
+                    target="_blank" rel="noopener noreferrer">
+                    W3schools js exercises
+                  </A>
+                  <br />
+                  <A href='https://edabit.com/challenges/javascriptp'
+                    target="_blank" rel="noopener noreferrer">
+                    Edabit exercises by levels
+                  </A>
+                  <br />
+                  <A href='https://codepen.io/jorgecardoso/post/0-basics-html-css-javascript'
+                    target="_blank" rel="noopener noreferrer">
+                    Codepen html,css,JS exercises
+                  </A>
+                  <br />
+                  <A href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/'
+                    target="_blank" rel="noopener noreferrer">
+                    Freecodecamp JS exercises
+                  </A>
+                  <br />
+                  <A href='https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php'
+                    target="_blank" rel="noopener noreferrer">
+                    150 js exercises
+                  </A>
+                  <br />
+                  <A href='https://www.w3resource.com/javascript-exercises/javascript-functions-exercises.php'
+                    target="_blank" rel="noopener noreferrer">
+                    Functions
+                  </A>
+                  <br />
+                  <A href='https://www.w3resource.com/javascript-exercises/javascript-conditional-statements-and-loops-exercises.php'
+                    target="_blank" rel="noopener noreferrer">
+                    Conditional statements
+                  </A>
+                  <br />
+                  <A href='https://www.w3resource.com/javascript-exercises/javascript-array-exercises.php'
+                    target="_blank" rel="noopener noreferrer">
+                    Arrays
+                  </A>
+                  <br />
+                  <A href='https://www.w3resource.com/javascript-exercises/javascript-array-exercises.php'
+                    target="_blank" rel="noopener noreferrer">
+                    Searching and sorting
+                  </A>
+                </Typography>
+              </AccordionDetails>
+            </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography className={classes.heading}>Server-Side</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+                  <A href='https://github.com/leanjs/express-exercises'
+                    target="_blank" rel="noopener noreferrer">
+                    Express - in README
+                  </A>
+                  <br />
+                  <A href='https://dev.to/islamabad50/express-js-boilerplate-cheatsheet-127p'
+                    target="_blank" rel="noopener noreferrer">
+                    Express-mongodb-video explanation
+                  </A>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+
+
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography className={classes.heading}>React</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+                <Typography>
+                  <A href='https://www.breatheco.de/interactive-exercise/react-exercises'
+                    target="_blank" rel="noopener noreferrer">
+                    React classes with testing
+                  </A>
+                  <br />
+                  <A href='https://www.breatheco.de/interactive-exercise/react-exercises'
+                    target="_blank" rel="noopener noreferrer">
+                    React projects
+                  </A>
+                  <br />
+                  <A href='https://scotch.io/courses/10-react-challenges-beginner'
+                    target="_blank" rel="noopener noreferrer">
+                    Scotch.io exercises
+                  </A>
+                </Typography>
+              </AccordionDetails>
+            </Accordion>
+
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography className={classes.heading}>Mobx</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+                  <A href='https://mobx.js.org/configuration.html'
+                    target="_blank" rel="noopener noreferrer">
+                    Configuration project
+                  </A>
+                  <br />
+                  <A href='https://mobx.js.org/actions.html'
+                    target="_blank" rel="noopener noreferrer">
+                    actions example project
+                  </A>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
     </div>
   );
 }
