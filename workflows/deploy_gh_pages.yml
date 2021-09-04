@@ -21,6 +21,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          REPOSITORY_NAME: yonatan119/yonatan119.github.io
+          REPOSITORY_NAME: yonatanBenezra/yonatanBenezra.github.io
           BRANCH: master
           FOLDER: build
