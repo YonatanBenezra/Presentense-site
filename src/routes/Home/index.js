@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <Transition in component={Grow}>
       <Content fixed>
-        <Typography variant="h6">
           <h3>Welcome to your coding course platform!</h3>
+        <Typography variant="h6">
           The Platform is an Urban Entrepreneurship and Innovation center run by the Tel Aviv Municipality in Neve Shaanan.
           <br />
           The Platform offers works space, lectures, courses and consultations to entreprenuers and social innovators and strives to create a community of local entrepreneurs and innovators.

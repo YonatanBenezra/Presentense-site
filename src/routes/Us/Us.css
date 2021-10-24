@@ -1,12 +1,29 @@
-
 .Linkedin {
-    background-size: contain;
-    background-position: center;
-    background-clip: content-box;
+  background-size: contain;
+  background-position: center;
+  background-clip: content-box;
 }
 .me:hover .Linkedin {
-    background-image: url('./Images/Linkedin.png');
-    transition: 0.8s;
-    border-bottom: 2px solid rgb(27, 27, 119);
-    border-right: 2px solid black;
+  background-image: url('./Images/Linkedin.png');
+  transition: 0.8s;
+  border-bottom: 2px solid rgb(27, 27, 119);
+  border-right: 2px solid black;
 }
+
+.class-container {
+  font-size: 15px;
+  display: flex;
+  font-size: font-weight;
+  font-weight: bolder;
+}
+.class-btn {
+  display: flex;
+  width: fit-content;
+  border: 1px solid;
+  border-radius: 7px;
+  padding: 3px;
+  cursor: pointer;
+  align-items: center;
+  margin-right: 1rem;
+}
+

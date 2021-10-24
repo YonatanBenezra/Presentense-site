@@ -28,21 +28,21 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>HTML&CSS</Typography>
+          <Typography component={'span'} className={classes.heading}>HTML&CSS</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography component={'span'}>
             <Accordion>
               <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
-                <Typography className={classes.heading}>HTML</Typography>
+                <Typography component={'span'} className={classes.heading}>HTML</Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography>
-                  <A href='https://doc-0s-14-docs.googleusercontent.com/docs/securesc/ufap1a5muoj2cniu7hkqoump2ahpm9lv/vg9c2aj152valpfjqe21cfhki726ornm/1613909775000/09318552211301867237/09318552211301867237/1SQ6yGsTzoxjfkDQGaGiGJ5ezFoBTFCGh?e=download&authuser=0&nonce=jsqo7lg1r1ao2&user=09318552211301867237&hash=n4t8keau9beuf48hnbrjgnj868jedd3v'
+                <Typography component={'span'}>
+                  <A href='https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet'
                     target="_blank" rel="noopener noreferrer">
                     HTML basics cheatsheet
                   </A>
@@ -55,10 +55,10 @@ export default function SimpleAccordion() {
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
-                <Typography className={classes.heading}>CSS</Typography>
+                <Typography component={'span'} className={classes.heading}>CSS</Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography>
+                <Typography component={'span'}>
                   <A href='https://devhints.io/css'
                     target="_blank" rel="noopener noreferrer">
                     CSS basics cheatsheet
@@ -91,12 +91,12 @@ export default function SimpleAccordion() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography className={classes.heading}>Git/hub</Typography>
+          <Typography component={'span'} className={classes.heading}>Git/hub</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography component={'span'}>
             <AccordionDetails>
-              <Typography>
+              <Typography component={'span'}>
                 <A href='https://doc-0s-14-docs.googleusercontent.com/docs/securesc/ufap1a5muoj2cniu7hkqoump2ahpm9lv/vg9c2aj152valpfjqe21cfhki726ornm/1613909775000/09318552211301867237/09318552211301867237/1SQ6yGsTzoxjfkDQGaGiGJ5ezFoBTFCGh?e=download&authuser=0&nonce=jsqo7lg1r1ao2&user=09318552211301867237&hash=n4t8keau9beuf48hnbrjgnj868jedd3v'
                   target="_blank" rel="noopener noreferrer">
                   Github cheatsheet
@@ -112,10 +112,10 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Javascript</Typography>
+          <Typography component={'span'} className={classes.heading}>Javascript</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography component={'span'}>
 
             <Accordion>
               <AccordionSummary
@@ -123,10 +123,10 @@ export default function SimpleAccordion() {
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
-                <Typography className={classes.heading}>Basics</Typography>
+                <Typography component={'span'} className={classes.heading}>Basics</Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography>
+                <Typography component={'span'}>
                   <A href='https://doc-0k-14-docs.googleusercontent.com/docs/securesc/ufap1a5muoj2cniu7hkqoump2ahpm9lv/8nsk4c0disqip9733kni0m8daqrf2a5e/1613912025000/09318552211301867237/09318552211301867237/1oqgVIbQ8U93hZl9q_nnwdG7CJe_anvY8?e=download&authuser=0&nonce=1qothtvb9jnf0&user=09318552211301867237&hash=2u4l6kt9irfjjdum5i535f2ad02sg3u8'
                     target="_blank" rel="noopener noreferrer">
                     Introduction
@@ -156,10 +156,10 @@ export default function SimpleAccordion() {
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
-                <Typography className={classes.heading}>Intermediate</Typography>
+                <Typography component={'span'} className={classes.heading}>Intermediate</Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography>
+                <Typography component={'span'}>
                   {/* <A href='https://doc-0k-14-docs.googleusercontent.com/docs/securesc/ufap1a5muoj2cniu7hkqoump2ahpm9lv/8nsk4c0disqip9733kni0m8daqrf2a5e/1613912025000/09318552211301867237/09318552211301867237/1oqgVIbQ8U93hZl9q_nnwdG7CJe_anvY8?e=download&authuser=0&nonce=1qothtvb9jnf0&user=09318552211301867237&hash=2u4l6kt9irfjjdum5i535f2ad02sg3u8'
                     target="_blank" rel="noopener noreferrer">
                     Scope
@@ -208,10 +208,10 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Server-Side</Typography>
+          <Typography component={'span'} className={classes.heading}>Server-Side</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography component={'span'}>
                   <A href='https://devhints.io/npm'
                     target="_blank" rel="noopener noreferrer">
                     npm
@@ -233,10 +233,10 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>React</Typography>
+          <Typography component={'span'} className={classes.heading}>React</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography component={'span'}>
 
             <Accordion>
               <AccordionSummary
@@ -244,10 +244,10 @@ export default function SimpleAccordion() {
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
-                <Typography className={classes.heading}>Basics</Typography>
+                <Typography component={'span'} className={classes.heading}>Basics</Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography>
+                <Typography component={'span'}>
                   <A href='https://www.html.cn/dev/react.html'
                     target="_blank" rel="noopener noreferrer">
                     React classes
@@ -272,10 +272,10 @@ export default function SimpleAccordion() {
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
-                <Typography className={classes.heading}>Intermediate</Typography>
+                <Typography component={'span'} className={classes.heading}>Intermediate</Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography>
+                <Typography component={'span'}>
                   {/* <A href='https://doc-0k-14-docs.googleusercontent.com/docs/securesc/ufap1a5muoj2cniu7hkqoump2ahpm9lv/8nsk4c0disqip9733kni0m8daqrf2a5e/1613912025000/09318552211301867237/09318552211301867237/1oqgVIbQ8U93hZl9q_nnwdG7CJe_anvY8?e=download&authuser=0&nonce=1qothtvb9jnf0&user=09318552211301867237&hash=2u4l6kt9irfjjdum5i535f2ad02sg3u8'
                     target="_blank" rel="noopener noreferrer">
                     Events, Set State
@@ -325,10 +325,10 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Mongoose</Typography>
+          <Typography component={'span'} className={classes.heading}>Mongoose</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography component={'span'}>
                   <A href='https://devdocs.io/mongoose/'
                     target="_blank" rel="noopener noreferrer">
                     Cheat sheet
@@ -344,10 +344,10 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Mobx</Typography>
+          <Typography component={'span'} className={classes.heading}>Mobx</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography component={'span'}>
                   <A href='https://mobx-react.js.org/recipes-migration'
                     target="_blank" rel="noopener noreferrer">
                     Cheat sheet
@@ -362,10 +362,10 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Winner of the Final project!</Typography>
+          <Typography component={'span'} className={classes.heading}>Winner of the Final project!</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography component={'span'}>
             You will have to wait to find out! (I am betting on you)
           </Typography>
         </AccordionDetails>
@@ -380,20 +380,20 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>HTML</Typography>
+          <Typography component={'span'} className={classes.heading}>HTML</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography component={'span'}>
             <Accordion>
               <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
-                <Typography className={classes.heading}>Basic</Typography>
+                <Typography component={'span'} className={classes.heading}>Basic</Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography>
+                <Typography component={'span'}>
                   <A href='https://www.w3schools.com/html/exercise.asp?filename=exercise_html_attributes1'
                     target="_blank" rel="noopener noreferrer">
                     W3 HTML exercises
@@ -417,10 +417,10 @@ export default function SimpleAccordion() {
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
-                <Typography className={classes.heading}>Intermediate</Typography>
+                <Typography component={'span'} className={classes.heading}>Intermediate</Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography>
+                <Typography component={'span'}>
                 <A href='http://howtocodeinhtml.com/chapter4.html'
                     target="_blank" rel="noopener noreferrer">
                     How-to-code-in-html blogpost exercise
@@ -460,10 +460,10 @@ export default function SimpleAccordion() {
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
-                <Typography className={classes.heading}>Advanced</Typography>
+                <Typography component={'span'} className={classes.heading}>Advanced</Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography>
+                <Typography component={'span'}>
                   <A href='https://draftin.com/documents/499936?token=fgK6zU_Ojo65goYklgWfn2_V9v2lKSJD64_8ta2tSzjqnBp16_kEUfsFP8OBWGZCsZUtzCMbo3M5HGWeIMO7lO0'
                     target="_blank" rel="noopener noreferrer">
                     Draftin advanced css exercises
@@ -496,12 +496,12 @@ export default function SimpleAccordion() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography className={classes.heading}>CSS</Typography>
+          <Typography component={'span'} className={classes.heading}>CSS</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography component={'span'}>
             <AccordionDetails>
-              <Typography>
+              <Typography component={'span'}>
                 <A href='http://flexboxfroggy.com/'
                   target="_blank" rel="noopener noreferrer">
                   Flex box froggy
@@ -546,10 +546,10 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Javascript</Typography>
+          <Typography component={'span'} className={classes.heading}>Javascript</Typography>
         </AccordionSummary>
         <AccordionDetails>
-                <Typography>
+                <Typography component={'span'}>
                   <A href='https://www.w3schools.com/js/js_exercises.asp'
                     target="_blank" rel="noopener noreferrer">
                     W3schools js exercises
@@ -603,10 +603,10 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Server-Side</Typography>
+          <Typography component={'span'} className={classes.heading}>Server-Side</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography component={'span'}>
                   <A href='https://github.com/leanjs/express-exercises'
                     target="_blank" rel="noopener noreferrer">
                     Express - in README
@@ -628,10 +628,10 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>React</Typography>
+          <Typography component={'span'} className={classes.heading}>React</Typography>
         </AccordionSummary>
         <AccordionDetails>
-                <Typography>
+                <Typography component={'span'}>
                   <A href='https://www.breatheco.de/interactive-exercise/react-exercises'
                     target="_blank" rel="noopener noreferrer">
                     React classes with testing
@@ -656,10 +656,10 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Mobx</Typography>
+          <Typography component={'span'} className={classes.heading}>Mobx</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography component={'span'}>
                   <A href='https://mobx.js.org/configuration.html'
                     target="_blank" rel="noopener noreferrer">
                     Configuration project

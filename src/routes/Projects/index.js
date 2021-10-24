@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Hidden from '@material-ui/core/Hidden';
-import Keyboard, { Cursor } from 'react-mk';
+import Keyboard from 'react-mk';
 import useProjects from 'hooks/useProjects';
 import Content from 'templates/Content';
 import Transition from 'components/Transition';
